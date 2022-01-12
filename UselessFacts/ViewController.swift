@@ -19,6 +19,7 @@ class ViewController: UITabBarController {
         let profileVC = SettingsViewController()
         let factsListVC = FactsListViewController()
         
+        view.backgroundColor = UIColor(named: "background-universal")
         homeVC.tabBarItem = UITabBarItem.init(title: "Home", image: UIImage(systemName: "house.circle")?.withRenderingMode(.alwaysOriginal).withTintColor(UIColor(named: "tabBar")!), tag: 0)
         homeVC.tabBarItem.selectedImage = UIImage(systemName: "house.circle.fill")?.withRenderingMode(.alwaysOriginal).withTintColor(K.brandYellow)
         

@@ -13,7 +13,7 @@ class FactCell: UITableViewCell {
     
     let cardView: UIView = {
         let view = UIView()
-        view.layer.borderWidth = 0.3
+        view.layer.borderWidth = 0.6
         view.layer.cornerRadius = 20
         view.layer.borderColor = UIColor(named: "border")?.cgColor
         return view

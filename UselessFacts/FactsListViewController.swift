@@ -210,7 +210,7 @@ class longPressBottomSheet: DynamicBottomSheetViewController {
         
         let cardView: UIView = {
             let view = UIView()
-            view.layer.borderWidth = 0.3
+            view.layer.borderWidth = 0.6
             view.layer.cornerRadius = 20
             return view
         }()

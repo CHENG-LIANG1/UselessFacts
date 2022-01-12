@@ -23,7 +23,7 @@ class HomeViewController: UIViewController {
         let view = UIView()
         Tools.setWidth(view, 300)
         view.layer.borderColor = UIColor(named: "border")?.cgColor
-        view.layer.borderWidth = 0.3
+        view.layer.borderWidth = 0.6
         view.layer.cornerRadius = 20
         return view
     }()
