@@ -73,22 +73,24 @@ class HomeViewController: UIViewController {
     
     let downloadButton: UIButton = {
         let btn = UIButton()
-        btn.setImage(UIImage(systemName: "arrow.down.circle.fill")?.withRenderingMode(.alwaysOriginal).withTintColor(.black), for: .normal)
+        btn.setImage(UIImage(systemName: "arrow.down.circle.fill")?.withRenderingMode(.alwaysOriginal).withTintColor(UIColor(named: "text")!), for: .normal)
         Tools.setWidth(btn, 70)
         Tools.setHeight(btn, 70)
         btn.contentVerticalAlignment = .fill
         btn.contentHorizontalAlignment = .fill
+
         return btn
     }()
     
     let shareButton: UIButton = {
         let btn = UIButton()
-        btn.setImage(UIImage(systemName: "arrow.up.circle.fill")?.withRenderingMode(.alwaysOriginal).withTintColor(.black), for: .normal)
+        btn.setImage(UIImage(systemName: "arrow.up.circle.fill")?.withRenderingMode(.alwaysOriginal).withTintColor(UIColor(named: "text")!), for: .normal)
         
         Tools.setWidth(btn, 70)
         Tools.setHeight(btn, 70)
         btn.contentVerticalAlignment = .fill
         btn.contentHorizontalAlignment = .fill
+
         return btn
     }()
     

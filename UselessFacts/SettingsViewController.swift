@@ -112,7 +112,7 @@ class AboutUsBottomSheet: DynamicBottomSheetViewController{
     override func configureView() {
         super.configureView()
         
-        let dragHandle = Tools.setUpDragHandle(color: .darkGray, width: 50, height: 12, radius: 6)
+        let dragHandle = Tools.setUpDragHandle(color: UIColor(named: "drag")!, width: 50, height: 12, radius: 6)
         contentView.addSubview(dragHandle)
         dragHandle.snp.makeConstraints { make in
             make.centerX.equalTo(contentView)
