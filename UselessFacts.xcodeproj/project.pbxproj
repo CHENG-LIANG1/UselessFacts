@@ -14,9 +14,6 @@
 		FCA02FAF2779644B00E4D4E7 /* SynonymGen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCA02FAD2779644B00E4D4E7 /* SynonymGen.xcdatamodeld */; };
 		FCA02FB12779644D00E4D4E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA02FB02779644D00E4D4E7 /* Assets.xcassets */; };
 		FCA02FB42779644D00E4D4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA02FB22779644D00E4D4E7 /* LaunchScreen.storyboard */; };
-		FCA02FBF2779644D00E4D4E7 /* SynonymGenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA02FBE2779644D00E4D4E7 /* SynonymGenTests.swift */; };
-		FCA02FC92779644D00E4D4E7 /* SynonymGenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA02FC82779644D00E4D4E7 /* SynonymGenUITests.swift */; };
-		FCA02FCB2779644D00E4D4E7 /* SynonymGenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA02FCA2779644D00E4D4E7 /* SynonymGenUITestsLaunchTests.swift */; };
 		FCA02FD82779660200E4D4E7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA02FD72779660200E4D4E7 /* HomeViewController.swift */; };
 		FCA02FDA2779660E00E4D4E7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA02FD92779660E00E4D4E7 /* SettingsViewController.swift */; };
 		FCCDDAE92779A37400D64B57 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCDDAE82779A37400D64B57 /* Tools.swift */; };
@@ -58,10 +55,7 @@
 		FCA02FB32779644D00E4D4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCA02FB52779644D00E4D4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCA02FBA2779644D00E4D4E7 /* UselessFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UselessFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCA02FBE2779644D00E4D4E7 /* SynonymGenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynonymGenTests.swift; sourceTree = "<group>"; };
 		FCA02FC42779644D00E4D4E7 /* UselessFactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UselessFactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCA02FC82779644D00E4D4E7 /* SynonymGenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynonymGenUITests.swift; sourceTree = "<group>"; };
-		FCA02FCA2779644D00E4D4E7 /* SynonymGenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynonymGenUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FCA02FD72779660200E4D4E7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FCA02FD92779660E00E4D4E7 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		FCCDDAE82779A37400D64B57 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
@@ -120,8 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				FCA02FA32779644B00E4D4E7 /* UselessFacts */,
-				FCA02FBD2779644D00E4D4E7 /* SynonymGenTests */,
-				FCA02FC72779644D00E4D4E7 /* SynonymGenUITests */,
 				FCA02FA22779644B00E4D4E7 /* Products */,
 				A313135A01992BB71FF19EAA /* Pods */,
 				D30A4562A9788E79D38471F6 /* Frameworks */,
@@ -157,23 +149,6 @@
 				FCD3CF1327854A5C00884CC2 /* FactCell.swift */,
 			);
 			path = UselessFacts;
-			sourceTree = "<group>";
-		};
-		FCA02FBD2779644D00E4D4E7 /* SynonymGenTests */ = {
-			isa = PBXGroup;
-			children = (
-				FCA02FBE2779644D00E4D4E7 /* SynonymGenTests.swift */,
-			);
-			path = SynonymGenTests;
-			sourceTree = "<group>";
-		};
-		FCA02FC72779644D00E4D4E7 /* SynonymGenUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FCA02FC82779644D00E4D4E7 /* SynonymGenUITests.swift */,
-				FCA02FCA2779644D00E4D4E7 /* SynonymGenUITestsLaunchTests.swift */,
-			);
-			path = SynonymGenUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,7 +325,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCA02FBF2779644D00E4D4E7 /* SynonymGenTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,8 +332,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCA02FC92779644D00E4D4E7 /* SynonymGenUITests.swift in Sources */,
-				FCA02FCB2779644D00E4D4E7 /* SynonymGenUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

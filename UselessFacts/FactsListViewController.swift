@@ -146,8 +146,10 @@ class longPressBottomSheet: DynamicBottomSheetViewController {
         tv.textColor = .black
         tv.isScrollEnabled = false
         tv.font = UIFont.init(name: "ArialRoundedMTBold", size: 18)
+        tv.textColor = UIColor(named: "text")
         tv.isEditable = false
         tv.isSelectable = false
+        tv.backgroundColor = UIColor(named: "background")
         return tv
     }()
     
@@ -212,7 +214,7 @@ class longPressBottomSheet: DynamicBottomSheetViewController {
             view.layer.cornerRadius = 20
             return view
         }()
-        
+        contentView.backgroundColor = UIColor(named: "background")
 
         
         factTextView.text = FactsListViewController.factArray.reversed()[index!]

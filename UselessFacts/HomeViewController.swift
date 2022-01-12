@@ -176,7 +176,5 @@ class HomeViewController: UIViewController {
         
         buttonStackView.addArrangedSubview(downloadButton)
         buttonStackView.addArrangedSubview(shareButton)
-        
-        
     }
 }
